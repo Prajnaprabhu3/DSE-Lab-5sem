@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F4ED;
+}
+
+.wrapper {
+    border: 2px solid black;
+    width: 70%;
+    margin: 4rem auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.first-section {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.profile-image img {
+    height: 10rem;
+    margin-right: 1rem;
+}
+
+.profile-name {
+    font-size: 1.6rem;
+    font-weight: 1000;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+
+}
+
+.profile-designation {
+    font-size: 1.3rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.contact-address,
+.contact-email,
+.contact-phnumber,
+.contact-website {
+    display: flex;
+    padding: 2px;
+}
+
+.contact-address-logo,
+.contact-email-logo,
+.contact-phnumber-logo,
+.contact-website-logo img {
+    height: 1rem;
+    margin: 2px 6px;
+}
+
+.second-section {
+    margin: 4rem 0rem;
+
+}
+
+.objective {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.objective-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0rem 1.5rem;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+.education-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0rem 1.5rem;
+}
+
+.school,
+.college {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 1.3rem;
+}
+
+.school-year,
+.college-year {
+    margin: 0 2rem;
+}
+
+.school-content,
+.college-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.college-name,
+.school-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}

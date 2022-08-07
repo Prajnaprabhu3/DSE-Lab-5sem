@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(221, 200, 240);
+}
+
+.box-model-wrapper {
+    background-color: rgb(187, 140, 228);
+    height: 400px;
+    width: 400px;
+    margin: 10rem;
+    border: 2px solid rgb(29, 4, 53);
+
+}
+
+.box-model {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(173, 122, 221);
+    margin: 3rem;
+    border: 2px solid rgb(29, 4, 53);
+    padding: 8rem;
+}
