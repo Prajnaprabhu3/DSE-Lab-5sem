@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem;
+    margin: 10rem 3rem;
 }
 
 table,
@@ -25,3 +25,7 @@ tfoot {
     color: #fff;
 
 }
+
+/* tbody tr {
+    background-color: red;
+} */
