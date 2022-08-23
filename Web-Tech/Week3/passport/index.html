@@ -10,30 +10,95 @@
 </head>
 
 <body>
-    <div class="top-heading">
-        <h1>Online Passport Application</h1>
+   
+<div class="wrapper">
+    <div class="heading">User Registration</div>
+    <div class="instructions">
+        <p><b>Important Information: </b>Passport application can be processed at any PSK/POPS/PSLK within India irrespective of your residential address</p><br>
+      <ul>
+        <li>  <p><a href="#">Click here</a> to check the appointment availability at all PSK/POPS/PSLK</p><br>
+        </li>
+        <li><p><a href="#">Click here</a> to know more about Apply Anywhere in India scheme for Passport Services.</p></li>
+      </ul>
     </div>
-    <div class="wrapper">
-        <div class="first-section">
-            <div class="inside-heading">On-Line Passport Registration in India</div>
-            <div class="first-section-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis explicabo eos facilis veniam
-                cupiditate perferendis magni dolor, dicta voluptas repellat impedit sapiente totam numquam minima vitae
-                quae quasi hic aliquid.
+
+    <div class="form-section">
+        <form action="">
+            <div class="one">
+             <div class="one-label">   <label for="">Register to apply at <span class="asterisk">*</span></label></div>
+             <div class="one-input">
+             <div>   <input type="radio"> CPV Delhi </input></div>
+              <div>  <input type="radio"> Passport Office </input></div>
+             </div>
+
             </div>
-        </div>
 
-        <div class="second-section">
-            <div class="second-heading">Online Registration</div>
-
-            <div class="form">
-                <label for="Indian Mission">
-                    <input type="select">
-                </label>
+            <div class="two">
+                <div class="two-label">
+                    <label for="">Passport Office</label>
+                    <span class="asterisk">*</span>
+                </div>
+                <div class="two-input">
+                    <div>
+                        <select name="office" id="office">
+                            <option value="">----- Select -----</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Chennai">Chennai</option>
+                        </select>
+                    </div>
+                </div>
             </div>
-        </div>
 
+
+            <div class="three">
+                <div class="three-label">
+                    <label for="">Given Name</label> <span class="asterisk">*</span></div>
+                    <div class="three-input">
+                        <input type="text" placeholder="Enter name">
+                    </div>
+                
+            </div>
+
+            <div class="four">
+                <div class="four-label">
+                    <label for="">Surname</label> <span class="asterisk">*</span></div>
+                    <div class="four-input">
+                        <input type="text" placeholder="Enter surname">
+                    </div>
+                
+            </div>
+
+            <div class="five">
+                <div class="five-label">
+                    <label for="">Date of Birth (DD/MM/YYYY)</label> <span class="asterisk">*</span></div>
+                    <div class="five-input">
+                        <input type="date" placeholder="DD/MM/YYYY">
+                    </div>
+                
+            </div>
+
+            <div class="six">
+                <div class="six-label">
+                    <label for="">Email ID(max 35 characters)</label> <span class="asterisk">*</span></div>
+                    <div class="six-input">
+                        <input type="email">
+                    </div>
+                
+            </div>
+
+            <div class="seven">
+                <div class="seven-label">
+                    <label for="">Do you want Login Id to be same as email id</label> <span class="asterisk">*</span></div>
+                    <div class="seven-input">
+                        <input type="radio">Yes
+                        <input type="radio">No
+                    </div>
+                
+            </div>
+        </form>
     </div>
+</div>
 </body>
 
 </html>
