@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 221, 204);
+}
+
+.wrapper {
+    margin: 14rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4rem;
+    box-shadow: 10px 15px rgb(170, 170, 170);
+}
+
+.wrapperTwo {
+    background-color: rgb(255, 255, 255);
+    padding: 8rem 8rem 0rem 0rem;
+    border: 2px solid white;
+    border-radius: 3rem;
+}
+
+.semicircleOne,
+.semiCircleTwo,
+.semiCircleThree,
+.semiCircleFour {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem 5rem 0 0;
+}
+
+.semicircleOne {
+    background-color: rgb(250, 246, 37);
+    display: fixed;
+
+}
+
+
+.semiCircleTwo {
+    background-color: red;
+    transform: rotate(90deg);
+    position: relative;
+    top: -7.5rem;
+    left: 7rem;
+}
+
+
+.semiCircleThree {
+    background-color: rgb(41, 192, 117);
+    transform: rotate(270deg);
+    position: relative;
+    top: -2.5rem;
+    left: 2rem;
+}
+
+
+.semiCircleFour {
+    background-color: rgb(73, 73, 238);
+    transform: rotate(180deg);
+    position: relative;
+    top: -10rem;
+    left: 9.5rem;
+}

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 248, 248);
+    padding: 3rem;
+
+}
+
+.heading {
+    font-size: 1.3rem;
+    color: rgb(63, 114, 204);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: rgb(63, 114, 204);
+}
+
+.form-section {
+    display: flex;
+    margin: 2rem 0rem;
+}
+
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.captcha-entry {
+    display: flex;
+    margin: 2rem 0rem;
+}
+
+
+
+.one-label,
+.two-label,
+.three-label,
+.four-label,
+.five-label,
+.six-label,
+.seven-label,
+.eight-label,
+.nine-label,
+.ten-label {
+    margin-right: 2rem;
+}
+
+.two-input select,
+.three-input input,
+.four-input input,
+.five-input input,
+.six-input input,
+.captcha-entry input {
+    padding: 0.3rem 4rem 0.3rem 0rem;
+    /* padding-right:4rem; */
+    margin-left: 1.8rem;
+}
+
+
+.asterisk {
+    color: red;
+}
+
+.six-input input,
+.four-input input,
+.three-input input {
+    padding-left: 12px;
+}
+
+.captcha-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}

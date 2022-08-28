@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: blanchedalmond;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+}
+
+.oval {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(216, 63, 8);
+    border-radius: 100px / 50px;
+    transform: rotate(55deg);
+    position: relative;
+    top: 4.5rem;
+}
+
+
+.semiCircleTwo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 5rem 3rem 0 0;
+    position: relative;
+    background-color: rgb(216, 63, 8);
+}
+
+.semiCircleOne {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem 5rem 0 0;
+    background-color: rgb(216, 63, 8);
+    position: relative;
+}
+
+.semiCircleOne {
+    top: 6.94rem;
+    left: -5.4rem;
+    transform: rotate(270deg);
+}
+
+
+.semiCircleTwo {
+    top: 4.96rem;
+    left: 6.03rem;
+    transform: rotate(90deg);
+
+}
+
+.horizontalLine {
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(216, 63, 8);
+    margin: 1rem;
+    position: fixed;
+}
+
+
+.lineOne,
+.lineTwo,
+.lineThree {
+    height: 9rem;
+    width: 2rem;
+    background-color: rgb(216, 63, 8);
+    margin: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
+.lines {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    position: relative;
+    top: 1.96rem;
+}
+
+
+.semCircleThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
