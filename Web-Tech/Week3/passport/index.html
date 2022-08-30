@@ -27,7 +27,7 @@
             </ul>
         </div>
 
-        <div class="form-section">
+          <div class="form-section">
             <form action="">
                 <div class="one">
                     <div class="one-label"> <label for="">Register to apply at <span class="asterisk">*</span></label>
@@ -122,29 +122,55 @@
                 </div>
             </div>
 
-        </div>
+        </div> 
 
 
 
 
         <div class="captcha-entry">
+           <form  name="form">
             <div class="captcha-entry-label">
-                <label for="captcha">Enter Characters Displayed </label><span class="asterisk">*</span>
+                <input type="text" id ="captchaTxtArea" name="text"><br>
+                <input type="text" id="captchaEnter" placeholder="Enter captcha here"><br>
+             <div class="buttons">
+                <input type="button" value="Refresh" id="refreshButton" onclick="genNewCaptcha()">
+                <input type="button" value="Check" id="checkButton" onclick="checkCaptcha()">
+             </div>
+              
             </div>
+           </form>
 
-            <div class="captcha-input">
-                <div class="captcha">
-                    sssss
-                </div>
-
-                <div class="captcha-input">
-                    <input type="text">
-                </div>
-            </div>
         </div>
         </form>
     </div>
     </div>
+
+    <script type="text/javascript">
+         var captcha, chars;
+
+function genNewCaptcha(){
+  chars = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  captcha = chars[Math.floor(Math.random() * chars.length )];
+  for(var i=0; i<6; i++){
+    captcha = captcha + chars[Math.floor(Math.random() * chars.length )];
+  }
+//    form.text.value=captcha;
+document.getElementById("captchaTxtArea").value=captcha;
+}
+
+function checkCaptcha(){
+  var check = document.getElementById("captchaEnter").value;
+  if(captcha == check){
+    alert("Valid Captcha!!! Success");
+    document.getElementById("captchaEnter").value = "";
+  }else{
+    alert("InValid Captcha!!! Please Try Again");
+    document.getElementById("captchaEnter").value = "";
+  }
+
+  genNewCaptcha();
+}
+    </script>
 </body>
 
 </html>
